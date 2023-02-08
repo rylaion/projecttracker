@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="<?php echo base_url('assets/css/main.css'); ?>" rel="stylesheet">
+  <link href="<?php echo base_url('assets/ganttchart/css/style.css'); ?>" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Impact - v1.2.0

@@ -1,4 +1,16 @@
 <!-- ======= Hero Section ======= -->
+<style>
+  .iconimage{
+    width: 100%;
+  }
+  .icon-box{
+    padding: 10px 10px 10px 10px !important;
+
+  }
+  .div_img{
+    padding: 0 !important;
+  }
+</style>
   <section id="hero" class="hero">
     <div class="container position-relative">
       <div class="row gy-5" data-aos="fade-in">
@@ -17,7 +29,9 @@
     </div>
 
     <div class="icon-boxes position-relative">
+    
       <div class="container position-relative">
+      <h1><span style="color:white;">Ongoing Project</span></h1>
         <div class="row gy-4 mt-5">
 
           <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -28,9 +42,9 @@
           </div>
           <!--End Icon Box -->
 
-          <div class="col-xl-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-3 col-md-6 div_img" data-aos="fade-up" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bi bi-gem"></i></div>
+              <div class="iconimage"><img src="assets/img/systemimage/gg.jpg" alt="Girl in a jacket"> </div>
               <h4 class="title"><a href="" class="stretched-link">Laboratory Information System</a></h4>
             </div>
           </div>
@@ -61,5 +75,5 @@
   <!-- End Hero Section -->
 
   <main id="main">
-
+  <div class="gantt"></div>
   </main><!-- End #main -->
